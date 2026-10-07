@@ -7,28 +7,28 @@
 class Flockfs < Formula
   desc "Shared plain-file drives for people and agents: sync, mount and scoped access"
   homepage "https://flockfs.com"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://dl.flockfs.com/cli/v#{version}/flockfs-darwin-arm64.tar.gz"
-      sha256 "c458b244ec0225515656e8862eee1bce5712b1456ae80ba802cf75b5c8b9ef05"
+      sha256 "354f945e0a22d75218c1b2b318cc3cbf203052117aa1610e9047038617d293c9"
     end
     on_intel do
       url "https://dl.flockfs.com/cli/v#{version}/flockfs-darwin-x86_64.tar.gz"
-      sha256 "c8bd402df6e21385277e306636f423a62d5e5b9f549c7cdf8542bff8dc32c4da"
+      sha256 "7b72de314111e536bfb86463f53ee2cc9357b54e657a294e8a18f240a1755cb3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://dl.flockfs.com/cli/v#{version}/flockfs-linux-aarch64.tar.gz"
-      sha256 "0b9341100365f2a98edb5705b957f676ed03da630449902d37634a71f9caeb6f"
+      sha256 "2d44c83af6e386d42c4e03976216c4220064a489aac375dfa8908fe952678177"
     end
     on_intel do
       url "https://dl.flockfs.com/cli/v#{version}/flockfs-linux-x86_64.tar.gz"
-      sha256 "1469a2f53f7e9bb34b1f43e72180eca584c6a4075f376e93b7eccc94e60d08e0"
+      sha256 "a63a33a01483558bab04ffab040e41ae9745aa71ba8a8bc3851a3e5745a400e7"
     end
   end
 
